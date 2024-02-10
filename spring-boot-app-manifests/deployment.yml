@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: mailtester/javaapp:replaceImageTag
+        image: mailtester/javaapp:3
         ports:
         - containerPort: 8080
